@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		96F159C329D4021300839973 /* Animations_ExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F159C229D4021300839973 /* Animations_ExamplesApp.swift */; };
-		96F159C529D4021300839973 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F159C429D4021300839973 /* ContentView.swift */; };
+		96F159C529D4021300839973 /* Animation Customizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F159C429D4021300839973 /* Animation Customizations.swift */; };
 		96F159C729D4021700839973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F159C629D4021700839973 /* Assets.xcassets */; };
 		96F159CA29D4021700839973 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F159C929D4021700839973 /* Preview Assets.xcassets */; };
+		96F159D129D4068F00839973 /* Animation Bindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F159D029D4068F00839973 /* Animation Bindings.swift */; };
+		96F159D329D6010800839973 /* Explicit Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F159D229D6010800839973 /* Explicit Animations.swift */; };
+		96F159D529D603E400839973 /* Animation Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F159D429D603E400839973 /* Animation Stack.swift */; };
+		96F159D729D605F600839973 /* Animating Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F159D629D605F600839973 /* Animating Gestures.swift */; };
+		96F159D929D6061100839973 /* View Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F159D829D6061100839973 /* View Transitions.swift */; };
+		96F159DB29D6062500839973 /* Custom Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F159DA29D6062500839973 /* Custom Transitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96F159BF29D4021300839973 /* Animations Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animations Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F159C229D4021300839973 /* Animations_ExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations_ExamplesApp.swift; sourceTree = "<group>"; };
-		96F159C429D4021300839973 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96F159C429D4021300839973 /* Animation Customizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation Customizations.swift"; sourceTree = "<group>"; };
 		96F159C629D4021700839973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96F159C929D4021700839973 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96F159D029D4068F00839973 /* Animation Bindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation Bindings.swift"; sourceTree = "<group>"; };
+		96F159D229D6010800839973 /* Explicit Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Explicit Animations.swift"; sourceTree = "<group>"; };
+		96F159D429D603E400839973 /* Animation Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation Stack.swift"; sourceTree = "<group>"; };
+		96F159D629D605F600839973 /* Animating Gestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animating Gestures.swift"; sourceTree = "<group>"; };
+		96F159D829D6061100839973 /* View Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View Transitions.swift"; sourceTree = "<group>"; };
+		96F159DA29D6062500839973 /* Custom Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Transitions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				96F159C229D4021300839973 /* Animations_ExamplesApp.swift */,
-				96F159C429D4021300839973 /* ContentView.swift */,
+				96F159D629D605F600839973 /* Animating Gestures.swift */,
+				96F159C429D4021300839973 /* Animation Customizations.swift */,
+				96F159D829D6061100839973 /* View Transitions.swift */,
+				96F159D029D4068F00839973 /* Animation Bindings.swift */,
+				96F159DA29D6062500839973 /* Custom Transitions.swift */,
+				96F159D429D603E400839973 /* Animation Stack.swift */,
+				96F159D229D6010800839973 /* Explicit Animations.swift */,
 				96F159C629D4021700839973 /* Assets.xcassets */,
 				96F159C829D4021700839973 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F159C529D4021300839973 /* ContentView.swift in Sources */,
+				96F159D129D4068F00839973 /* Animation Bindings.swift in Sources */,
+				96F159D529D603E400839973 /* Animation Stack.swift in Sources */,
+				96F159D329D6010800839973 /* Explicit Animations.swift in Sources */,
+				96F159D929D6061100839973 /* View Transitions.swift in Sources */,
+				96F159DB29D6062500839973 /* Custom Transitions.swift in Sources */,
+				96F159D729D605F600839973 /* Animating Gestures.swift in Sources */,
+				96F159C529D4021300839973 /* Animation Customizations.swift in Sources */,
 				96F159C329D4021300839973 /* Animations_ExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
